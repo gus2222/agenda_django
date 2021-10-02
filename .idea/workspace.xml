@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfe29e28-0604-4cd9-98b2-d24cbfbc3231" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/agenda.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/model-footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/model-header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/model-page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/agenda/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/agenda/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/agenda/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
@@ -11,6 +17,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -23,6 +36,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -74,22 +88,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="274" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1633049392009" />
-    <state width="659" height="176" key="GridCell.Tab.0.bottom" timestamp="1633199800170">
+    <state x="675" y="0" key="CommitChangelistDialog2" timestamp="1633200085388">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="659" height="176" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1633199800170" />
-    <state width="659" height="176" key="GridCell.Tab.0.center" timestamp="1633199800170">
+    <state x="675" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1633200085388" />
+    <state width="659" height="175" key="GridCell.Tab.0.bottom" timestamp="1633200859610">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="659" height="176" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1633199800170" />
-    <state width="659" height="176" key="GridCell.Tab.0.left" timestamp="1633199800170">
+    <state width="659" height="175" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1633200859610" />
+    <state width="659" height="175" key="GridCell.Tab.0.center" timestamp="1633200859610">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="659" height="176" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1633199800170" />
-    <state width="659" height="176" key="GridCell.Tab.0.right" timestamp="1633199800170">
+    <state width="659" height="175" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1633200859610" />
+    <state width="659" height="175" key="GridCell.Tab.0.left" timestamp="1633200859609">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="659" height="176" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1633199800170" />
+    <state width="659" height="175" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1633200859609" />
+    <state width="659" height="175" key="GridCell.Tab.0.right" timestamp="1633200859610">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="659" height="175" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1633200859610" />
     <state x="368" y="6" key="SettingsEditor" timestamp="1633049364882">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
