@@ -35,9 +35,12 @@ def lista_eventos(request):
     dados = {'eventos':evento}
     return render(request,'agenda.html', dados)
 
-def eventos(request, titulo_evento):
-    local = Evento.objects.get(titulo = titulo_evento).descricao
-    return HttpResponse('<h2>O local do Evento {} é {} </h2>'.format(titulo_evento,local))
+def local(request, titulo_evento):
+    local = Evento.objects.get(titulo = titulo_evento).local
+    if local:
+        return HttpResponse('<h2>O local do Evento {} é {} </h2>'.format(titulo_evento,local))
+    else:
+        return HttpResponse('<h2>O local do Evento {} não foi definido </h2>'.format(titulo_evento))
 @login_required(login_url="/login")
 def evento(request):
     return render(request, 'evento.html')
@@ -47,9 +50,11 @@ def submit_evento(request):
         titulo = request.POST.get('titulo')
         data_evento = request.POST.get('data_evento')
         descricao = request.POST.get('descricao')
+        local = request.POST.get('local')
         usuario = request.user
         Evento.objects.create(titulo=titulo,
                               data_evento= data_evento,
                               descricao=descricao,
+                              local=local,
                               usuario=usuario)
     return redirect("/")
