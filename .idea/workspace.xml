@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfe29e28-0604-4cd9-98b2-d24cbfbc3231" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/historico.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agenda/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/agenda/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/agenda/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/agenda/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/views.py" afterDir="false" />
@@ -36,8 +36,13 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Gustavo\Documents\cursoDjango\agenda\templates" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -93,22 +98,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="675" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1633200085388" />
-    <state width="659" height="175" key="GridCell.Tab.0.bottom" timestamp="1633271294714">
+    <state width="659" height="175" key="GridCell.Tab.0.bottom" timestamp="1633274085229">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="659" height="175" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1633271294714" />
-    <state width="659" height="175" key="GridCell.Tab.0.center" timestamp="1633271294714">
+    <state width="659" height="175" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1633274085229" />
+    <state width="659" height="175" key="GridCell.Tab.0.center" timestamp="1633274085229">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="659" height="175" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1633271294714" />
-    <state width="659" height="175" key="GridCell.Tab.0.left" timestamp="1633271294714">
+    <state width="659" height="175" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1633274085229" />
+    <state width="659" height="175" key="GridCell.Tab.0.left" timestamp="1633274085228">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="659" height="175" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1633271294714" />
-    <state width="659" height="175" key="GridCell.Tab.0.right" timestamp="1633271294714">
+    <state width="659" height="175" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1633274085228" />
+    <state width="659" height="175" key="GridCell.Tab.0.right" timestamp="1633274085229">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="659" height="175" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1633271294714" />
+    <state width="659" height="175" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1633274085229" />
     <state x="368" y="6" key="SettingsEditor" timestamp="1633049364882">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

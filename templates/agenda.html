@@ -6,15 +6,18 @@
         <button type="button">Novo Evento</button>
     </a>
 
+
+
+
     <ul style="font-size: 16px">
     {% for evento in eventos %}
         {% if evento.local != null %}
-            <li style={% if evento.get_evento_atrasado %}"color:red"{%endif%}>{{evento.titulo}} - {{evento.get_data_evento}} - {{evento.local}}
+            <li style={% if evento.get_evento_atrasado %}"color:red"{%endif%}{% if evento.get_evento_comecar %}"color:yellow"{%endif%}>{{evento.titulo}} - {{evento.get_data_evento}} - {{evento.local}}
                 (<a href="evento/?id={{evento.id}}">Editar</a>
                 / <a href="evento/delete/{{ evento.id }}/">Excluir</a> )
             </li>
         {%else%}
-            <li style={% if evento.get_evento_atrasado %}"color:red"{%endif%}>{{evento.titulo}} - {{evento.get_data_evento}}
+            <li style={% if evento.get_evento_atrasado %}"color:red"{%endif%}{% if evento.get_evento_comecar %}"color:yellow"{%endif%}>{{evento.titulo}} - {{evento.get_data_evento}}
                 (<a href="evento/?id={{evento.id}}">Editar</a>
                 / <a href="evento/delete/{{ evento.id }}/">Excluir</a> )
             </li>
@@ -22,4 +25,9 @@
 
     {% endfor %}
     </ul>
+
+
+    <a href="/historico/">
+        <button type="button">Historico Eventos</button>
+    </a>
 {% endblock %}
